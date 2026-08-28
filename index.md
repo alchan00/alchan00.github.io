@@ -10,10 +10,10 @@ title: Alchan's Math Notes
 This is a collection of mathematical notes, questions, and ideas that I encounter while studying.
 
 ## Daily notes
-Things I studied and thought about each da
+Things I studied and thought about each day.
 
 ## Questions
-Questions that I want to understand
+Questions that I want to understand.
 
 ## Topics
 Notes organized by mathematical topics.
