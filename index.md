@@ -9,13 +9,11 @@ title: Alchan's Math Notes
 
 This is a collection of mathematical notes, questions, and ideas that I encounter while studying.
 
+## Daily notes
+Things I studied and thought about each da
+
+## Questions
+Questions that I want to understand
+
 ## Topics
-
-- [p-adic geometry](notes/p-adic-geometry/)
-- [Higher algebra](notes/higher-algebra/)
-- [Algebraic geometry](notes/algebraic-geometry/)
-- [Category theory](notes/category-theory/)
-
-## Recent notes
-
-Coming soon.
+Notes organized by mathematical topics.
