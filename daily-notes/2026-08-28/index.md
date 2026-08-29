@@ -2,7 +2,7 @@ Some random thoughts, what I learned.
 
 why is spdZ_p x spdZ_p so special?
 
-My previous focus on the power of the tilting functor and diamond functor was fusing the objects in char 0 and p, while retaining the topological informations.
+My previous focus on the power of the tilting functor and diamond functor was fusing the objects in char 0 and p, while retaining topological informations.
 Another importances and briliance seem to be somehow "forgeting the structure map" so to transport to a category with absolute product.
 
 View point on Algebraic invariants.
