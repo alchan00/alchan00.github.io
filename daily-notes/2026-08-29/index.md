@@ -10,6 +10,7 @@ Fact that can help understanding the stack condition.
 TFAE:
 1. Given any fppf cover U->X pullback induces an equiv of categories from Qcoh(X) to Qcoh(U/X), where the later is the category of descent data.
 2. pi : Qcoh -> sch_fppf is a stack.
+In general when a statement says ~ is a sheaf/ ~ is a stack. One should understand this statement as ~ can be glued uniquely from local data. (The word local here depends heavily on the topology of the site.)
 
 The difference between sheaf and stack.
 
