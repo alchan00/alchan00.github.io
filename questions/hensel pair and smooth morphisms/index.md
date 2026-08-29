@@ -9,11 +9,12 @@ Some facts.
 when A is I-adically complete, (A,I) is a henselian pair.
 (A,I) is henselian pair. Then it satisfy RLP for formally smooth ring maps. unique when etale.
 Conversly if (A,I) lifts etale maps it is henselian.
- 
+closed under limits and filtered colimits
 A_fet=A/I_fet holds. consequence : same fundamental group
 
 However there is no equiv of etale site. even for complete pairs. ex) Z_p->Q_p but F_p has only finite extensions.
 
 When I is locally nilpotent/ consists of nilpotent elements then A_et=A/I_et
+
 
 
