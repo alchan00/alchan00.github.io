@@ -133,7 +133,7 @@ is an **isomorphism** (and $H_k(X) = 0$ for $1 \le k < n$). That is, the first n
      $$
 
 2. **Serre's Finiteness Theorem:**  
-   The homotopy groups $\pi_k(S^n)$ are **finite abelian groups** for all $k > n$, except when $k = n$ or $k = 2n - 1$ (where an infinite cyclic factor $\mathbb{Z}$ may appear for even $n$).
+   The homotopy groups $\pi_k(S^n)$ are **finite abelian groups** for all $k > n$, except when $k = n$ or $k = 2n - 1$ 
 
 3. **Freudenthal Suspension Theorem & Stable Homotopy Groups:**  
    The natural suspension map $\pi_k(X, x_0) \to \pi_{k+1}(\Sigma X, x_0)$ implies that $\pi_{n+k}(S^n)$ stabilizes when $n > k + 1$.  
