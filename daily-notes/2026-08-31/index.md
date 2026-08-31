@@ -62,7 +62,7 @@ This mirrors the relationship between homotopy groups and homology groups:
 There exists a natural comparison map (the **Hurewicz homomorphism**):
 
 $$
-h_n \colon \pi_n(X, x_0) \longrightarrow H_n(X)
+h_n \colon \pi_n(X, x_0) \longrightarrow H_n(X,x_0)
 $$
 
 ### Hurewicz Theorem Statement
