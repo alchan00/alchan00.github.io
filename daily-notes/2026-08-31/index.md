@@ -1,9 +1,24 @@
-1. Dold kan correspondence
+# Dold–Kan Correspondence
 
-Facts : 
-Equiv of categories, and also quillen equivalences. homotopy category is D>=0(Z).
-simplicial abelian groups are all kan complexes. in particular weak equivalences are homotopy equivalences.
-the equivalences respect homotopy and homotopy groups in sAb <-> homology groups in chZ>=0.
+## Facts
+
+- Equivalence of categories, and also a Quillen equivalence.
+- The homotopy category is
+
+$$
+D_{\geq 0}(\mathbb{Z}).
+$$
+
+- Simplicial abelian groups are all Kan complexes. In particular,
+weak equivalences are homotopy equivalences.
+
+- The equivalence respects homotopy groups and homology groups:
+
+$$
+\pi_n(X_\bullet)
+\longleftrightarrow
+H_n(N(X_\bullet)).
+$$.
 
 
 pi_n(ZsingX)=reduced homology
@@ -32,12 +47,41 @@ ex) pi_3(S_2)=Z (hopf fibration) but H^3(S_2)=0
 ex) pi_3(RP^inf)=0 (RP^inf is K(Z/2Z,1) with contractible Z/2Z cover S^inf) but H_3(RP^inf)=Z/2Z
 
 Main results.
+## Main Results
 
-Hurewiez map pi_n(X,x_0) -> H_n(X,x_0)
+There is a natural map
 
-Hurewiez thr :
-(pi_1)ab=H_1,
-if X is simply connected, and pi_k(X)=0 for all k<n. then n'th map is an iso. (so the first nonzero group agree)
+$$
+\pi_n(X,x_0)
+\longrightarrow
+H_n(X).
+$$
+
+### Hurewicz Theorem
+
+$$
+\pi_1(X)^{\mathrm{ab}}
+\cong
+H_1(X).
+$$
+
+If $X$ is simply connected and
+
+$$
+\pi_k(X)=0
+\qquad
+\text{for all } k<n,
+$$
+
+then the Hurewicz map
+
+$$
+\pi_n(X)
+\longrightarrow
+H_n(X)
+$$
+
+is an isomorphism. i.e. the first nonzero group agree.
 
 n=0 : pointed set. path components.
 n>=1 : group, abelian when n>=2
