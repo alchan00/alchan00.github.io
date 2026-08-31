@@ -24,7 +24,7 @@ $$
 ## 2. Relations Between Topological Invariants
 
 ### Comparisons
-* $\pi_n(\mathbb{Z}_{\mathrm{sing}}(X)) \cong \widetilde{H}_n(X)$ (Reduced Singular Homology)
+* $\pi_n(\mathbb{Z}\mathrm{sing}(X)) \cong \widetilde{H}_n(X)$ (Reduced Singular Homology)
 * $\pi_n(\mathrm{Sing}(X)) \cong \pi_n(X, x_0)$ (Homotopy Groups)
 
 ---
@@ -35,7 +35,7 @@ $$
 There is a canonical adjunction between Pointed Sets ($\mathbf{Set}_*$) and Abelian Groups ($\mathbf{Ab}$):
 
 $$
-(S, s_0) \;\longmapsto\; \mathbb{Z}[S] / \mathbb{Z} s_0
+(S, s_0) \longmapsto\ \mathbb{Z}[S] / \mathbb{Z} s_0
 \qquad \Longleftrightarrow \qquad
 (A, 0) \;\reflectbox{$\longmapsto$}\; A
 $$
