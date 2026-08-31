@@ -22,5 +22,10 @@ However there is no equiv of etale site. even for complete pairs. ex) Z_p->Q_p i
 
 When I is locally nilpotent/ consists of nilpotent elements then A_et=A/I_et
 
+There is similar story for proper morphisms, namely the valuative criteria for properness.
+
+smoothness allows thickening along fibers. (Formal model from special fiber) Imagine as something spreading out.
+properness fills in the gap uniquely from generic fiber. (Formal model from generic fiber) Imagine filling in a puctured disc or a fog of generic point.
+
 
 
