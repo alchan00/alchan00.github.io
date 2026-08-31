@@ -1,107 +1,151 @@
-# Dold–Kan Correspondence
+# Algebraic Topology: Dold–Kan Correspondence, Homotopy vs. Homology, and Homotopy Groups of Spheres
 
-## Facts
+---
 
-- Equivalence of categories, and also a Quillen equivalence.
-- The homotopy category is
+## 1. Dold–Kan Correspondence
 
-$$
-D_{\geq 0}(\mathbb{Z}).
-$$
-
-- Simplicial abelian groups are all Kan complexes. In particular,
-weak equivalences are homotopy equivalences.
-
-- The equivalence respects homotopy groups and homology groups:
+### Core Properties
+* **Equivalence of Categories:** Establishes an equivalence between the category of simplicial abelian groups $\mathbf{sAb}$ and the category of non-negatively graded chain complexes $\mathbf{Ch}_{\ge 0}(\mathbf{Ab})$.
+* **Quillen Equivalence:** Induces a Quillen equivalence at the model category level. Its derived category yields the non-negative derived category of integers:
 
 $$
-\pi_n(X_\bullet)
-\longleftrightarrow
-H_n(N(X_\bullet)).
-$$.
-
-
-pi_n(ZsingX)=reduced homology
-pi_n(SingX)=homotopy groups
-
-2. homotopy group
-
-Remark.
-There is a functor Pointed Set <-> Ab
-(S,s)->Z[S]/Zs and
-(A,0)<-A.
-compatible with the usual free forget adjuntion between Sets and Ab.
-
-homotopy groups and homology are in similar relation. 
-
-
-pi_n vs H_n?
-
-both independent algebraic invariants of Top space invariant under homotopy/continous deformation, covariant.
-H_n : measures holes in a space. "base point free (zero)" freely cut, add or subtract cycles. Due to prev, more computable, more algebraic methods.
-pi_n : measures obstuctions for contracting spheres. homotopy group of spheres are not all known.
-
-implication : homotopy equiv -> weak equiv -> quasi iso.
-However vanishing of one do not imply the other.
-ex) pi_3(S_2)=Z (hopf fibration) but H^3(S_2)=0
-ex) pi_3(RP^inf)=0 (RP^inf is K(Z/2Z,1) with contractible Z/2Z cover S^inf) but H_3(RP^inf)=Z/2Z
-
-Main results.
-## Main Results
-
-There is a natural map
-
-$$
-\pi_n(X,x_0)
-\longrightarrow
-H_n(X).
+D_{\ge 0}(\mathbb{Z})
 $$
 
-### Hurewicz Theorem
+* **Fibrancy:** Every simplicial abelian group is a Kan complex. Consequently, weak equivalences in this setting correspond precisely to homotopy equivalences.
+* **Compatibility:** The equivalence preserves both homotopy and homology groups:
 
 $$
-\pi_1(X)^{\mathrm{ab}}
-\cong
-H_1(X).
+\pi_n(X_\bullet) \cong H_n(N(X_\bullet))
 $$
 
-If $X$ is simply connected and
+---
+
+## 2. Relations Between Topological Invariants
+
+### Comparisons
+* $\pi_n(\mathbb{Z}_{\mathrm{sing}}(X)) \cong \widetilde{H}_n(X)$ (Reduced Singular Homology)
+* $\pi_n(\mathrm{Sing}(X)) \cong \pi_n(X, x_0)$ (Homotopy Groups)
+
+---
+
+## 3. Homotopy Groups vs. Homology Groups
+
+### Categorical Framework
+There is a canonical adjunction between Pointed Sets ($\mathbf{Set}_*$) and Abelian Groups ($\mathbf{Ab}$):
 
 $$
-\pi_k(X)=0
-\qquad
-\text{for all } k<n,
+(S, s_0) \;\longmapsto\; \mathbb{Z}[S] / \mathbb{Z} s_0
+\qquad \Longleftrightarrow \qquad
+(A, 0) \;\reflectbox{$\longmapsto$}\; A
 $$
 
-then the Hurewicz map
+This mirrors the relationship between homotopy groups and homology groups:
+
+| Feature | Homotopy Groups ($\pi_n$) | Homology Groups ($H_n$) |
+| :--- | :--- | :--- |
+| **Concept** | Measures obstructions to contracting spheres ($S^n \to X$). | Measures "$n$-dimensional cycles mod boundaries" (holes). |
+| **Computability** | Difficult to compute (e.g., higher homotopy groups of spheres). | Highly computable via algebraic and axiomatic methods. |
+| **Structure** | Non-abelian for $n = 1$, abelian for $n \ge 2$. Basepoint-dependent. | Always abelian for $n \ge 1$. Basepoint-free (cycles can be added/subtracted). |
+
+> **Note on Implication Chains:**  
+> Homotopy Equivalence $\implies$ Weak Homotopy Equivalence $\implies$ Quasi-Isomorphism.  
+> However, the vanishing of one invariant **does not** imply the vanishing of the other:
+>
+> * $\pi_3(S^2) \cong \mathbb{Z}$ (via the Hopf Fibration), whereas $H_3(S^2) = 0$.
+> * $\pi_3(\mathbb{R}P^\infty) = 0$ (since $\mathbb{R}P^\infty \simeq K(\mathbb{Z}/2\mathbb{Z}, 1)$ with contractible universal cover $S^\infty$), whereas $H_3(\mathbb{R}P^\infty) \cong \mathbb{Z}/2\mathbb{Z}$.
+
+---
+
+## 4. Main Results: The Hurewicz Theorem
+
+There exists a natural comparison map (the **Hurewicz homomorphism**):
 
 $$
-\pi_n(X)
-\longrightarrow
-H_n(X)
+h_n \colon \pi_n(X, x_0) \longrightarrow H_n(X)
 $$
 
-is an isomorphism. i.e. the first nonzero group agree.
+### Hurewicz Theorem Statement
+1. **Dimension $n = 1$:** For any path-connected space $X$, the Hurewicz map induces an isomorphism from the abelianization of the fundamental group:
 
-n=0 : pointed set. path components.
-n>=1 : group, abelian when n>=2
+$$
+\pi_1(X)^{\mathrm{ab}} \;\cong\; H_1(X)
+$$
 
-computational method : serre fibration or fiber bundle
-F->E->B.
-induces LES in homotopy groups.
+2. **Dimensions $n \ge 2$:** If $X$ is $(n-1)$-connected (i.e., $X$ is simply connected and $\pi_k(X) = 0$ for all $1 \le k < n$), then the Hurewicz map
 
-Remark : this is a fiber seq. Given any map of pointed spaces A->B one can fiber product with PB (the path object, contractible) and obtain
-a serre fibration. serre fibration is just a special case where one do not need such fibrant replacement.
-Similarly the cofiber seq is the mapping cone. The case where one do not need replacement is when A->B is injection of CW and in that case A->B->B/A.
-In this way CW has a "half" triangulated structure. one inducing LES in homotopy groups and one inducing homology groups.
-suspension is similar to [1] and loop is to [-1] but they are not inverses in any sense. The motivation of Spectra Sp is to fix this and construct a stable inf category.
+$$
+h_n \colon \pi_n(X) \longrightarrow H_n(X)
+$$
 
-pi_n(LX)=pi_n+1(X)
+is an **isomorphism** (and $H_k(X) = 0$ for $1 \le k < n$). That is, the first non-zero homotopy and homology groups coincide.
 
+---
 
+## 5. Computational Tools & Duality Frameworks
 
+### Long Exact Sequences & Fibrations vs. Cofibrations
 
+* **Fibrations (Serre Fibrations):**  
+  Given a fiber sequence $F \to E \to B$, there is an induced long exact sequence (LES) in homotopy groups:
 
+  $$
+  \dots \to \pi_n(F) \to \pi_n(E) \to \pi_n(B) \to \pi_{n-1}(F) \to \dots
+  $$
 
+  * *Path-Loop Replacement:* For any continuous map of pointed spaces $A \to B$, one can replace $B$ with an equivalent fibration via the path space $PB$ (which is contractible) to obtain a Serre fibration.
 
+* **Cofibrations & Mapping Cones:**  
+  Dual to fibrations, a inclusion of CW complexes $A \hookrightarrow B$ gives a cofiber sequence $A \to B \to B/A$, which induces a long exact sequence in reduced homology groups.
 
+### Duality Summary Table
+
+| Concept | Homotopy Structure | Homology Structure |
+| :--- | :--- | :--- |
+| **Sequence Type** | Fiber Sequence ($F \to E \to B$) | Cofiber Sequence ($A \to B \to B/A$) |
+| **Exact Sequence** | Long Exact Sequence in $\pi_n$ | Long Exact Sequence in $H_n$ |
+| **Adjoint Operators** | Loop Space functor $\Omega X$ ($\text{right adjoint}$) | Reduced Suspension functor $\Sigma X$ ($\text{left adjoint}$) |
+| **Shift Relation** | $\pi_n(\Omega X) \cong \pi_{n+1}(X)$ | $\widetilde{H}_{n+1}(\Sigma X) \cong \widetilde{H}_n(X)$ |
+
+> **Motivation for Spectra ($\mathbf{Sp}$):**  
+> Suspension ($\Sigma$) and Loop ($\Omega$) functors are adjoints ($\Sigma \dashv \Omega$), but they are not inverses of each other in the unstable homotopy category. Constructing the stable homotopy category of **Spectra ($\mathbf{Sp}$)** inverts $\Sigma$, formalizing a true stable $\infty$-category.
+
+---
+
+## 6. Homotopy Groups of Spheres $\pi_k(S^n)$
+
+### Fundamental Results
+1. **Low Dimensions & Spheres:**
+   * By the Cellular Approximation Theorem and the Hurewicz Theorem:
+
+     $$
+     \pi_k(S^n) = 0 \quad \text{for } k < n, \qquad \text{and} \qquad \pi_n(S^n) \cong \mathbb{Z}
+     $$
+
+   * Since $S^1$ is an Eilenberg–MacLane space $K(\mathbb{Z}, 1)$:
+
+     $$
+     \pi_n(S^1) \cong 
+     \begin{cases} 
+     \mathbb{Z} & n = 1 \\ 
+     0 & n \neq 1 
+     \end{cases}
+     $$
+
+2. **Serre's Finiteness Theorem:**  
+   The homotopy groups $\pi_k(S^n)$ are **finite abelian groups** for all $k > n$, except when $k = n$ or $k = 2n - 1$ (where an infinite cyclic factor $\mathbb{Z}$ may appear for even $n$).
+
+3. **Freudenthal Suspension Theorem & Stable Homotopy Groups:**  
+   The natural suspension map $\pi_k(X, x_0) \to \pi_{k+1}(\Sigma X, x_0)$ implies that $\pi_{n+k}(S^n)$ stabilizes when $n > k + 1$.  
+   The **stable $k$-stem** is defined as:
+
+   $$
+   \pi_k^s \coloneqq \varinjlim_{n \to \infty} \pi_{n+k}(S^n)
+   $$
+
+   * $k < 0 : 0$
+   * $k = 0 : \mathbb{Z}$
+   * $k = 1 : \mathbb{Z}/2\mathbb{Z}$
+   * $k = 2 : \mathbb{Z}/2\mathbb{Z}$
+   * $k = 3 : \mathbb{Z}/24\mathbb{Z}$
+   * $k = 4, 5 : 0$
