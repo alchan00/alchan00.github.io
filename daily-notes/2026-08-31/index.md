@@ -37,7 +37,7 @@ There is a canonical adjunction between Pointed Sets ($\mathbf{Set}_*$) and Abel
 $$
 (S, s_0) \longmapsto\ \mathbb{Z}[S] / \mathbb{Z} s_0
 \qquad \Longleftrightarrow \qquad
-(A, 0) \;\reflectbox{$\longmapsto$}\; A
+(A, 0) \longmapsto\ A
 $$
 
 This mirrors the relationship between homotopy groups and homology groups:
@@ -140,7 +140,7 @@ is an **isomorphism** (and $H_k(X) = 0$ for $1 \le k < n$). That is, the first n
    The **stable $k$-stem** is defined as:
 
    $$
-   \pi_k^s \coloneqq \varinjlim_{n \to \infty} \pi_{n+k}(S^n)
+   \pi_k^s \mathrel{:=} \varinjlim_{n \to \infty} \pi_{n+k}(S^n)
    $$
 
    * $k < 0 : 0$
