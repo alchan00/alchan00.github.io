@@ -50,9 +50,7 @@ Let $X$ be a connected normal scheme and let $\bar{x}_0: \operatorname{Spec} \Om
 
 The étale fundamental group is defined as the group of automorphisms of the fiber functor
 $$
-F_{\bar{x}_0}:
-
-\mathbf{FEt}/X \longrightarrow \mathbf{FinSets},
+F_{x_0}: \mathbf{FEt}/X \longrightarrow \mathbf{FinSets},
 \qquad
 Y \longmapsto Y_{\bar{x}_0}.
 $$
