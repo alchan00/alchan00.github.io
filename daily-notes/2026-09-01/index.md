@@ -50,7 +50,7 @@ The étale fundamental group is defined as the group of automorphisms of the fib
 
 $$F_{\bar{x}_0}: \mathbf{FEt}/X \longrightarrow \mathbf{FinSet}, \quad (Y \to X) \longmapsto Y_{\bar{x}_0} = Y \times_X \operatorname{Spec} \Omega$$
 
-$$\pi_1^{\text{et}}(X, \bar{x}_0) \coloneqq \operatorname{Aut}(F_{\bar{x}_0})$$
+$$\pi_1^{\text{et}}(X, \bar{x}_0) := \operatorname{Aut}(F_{\bar{x}_0})$$
 
 By construction, $\pi_1^{\text{et}}(X, \bar{x}_0)$ acts naturally and continuously on the fiber $Y_{\bar{x}_0} = F_{\bar{x}_0}(Y)$.
 
