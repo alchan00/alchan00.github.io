@@ -49,11 +49,10 @@ Let $X$ be a connected normal scheme and let $\bar{x}_0: \operatorname{Spec} \Om
 ### Étale Fundamental Group $\pi_1^{\text{et}}(X, \bar{x}_0)$
 
 The étale fundamental group is defined as the group of automorphisms of the fiber functor
-$$
-F_{\bar{x}0}: \mathbf{FEt}/X \longrightarrow \mathbf{FinSets},
+
+$F_{\bar{x}0}: \mathbf{FEt}/X \longrightarrow \mathbf{FinSets},
 \qquad
-Y \longmapsto Y_{\bar{x}_0}.
-$$
+Y \longmapsto Y_{\bar{x}_0}.$
 
 By construction, $\pi_1^{\text{et}}(X,\bar{x}0)$ acts naturally and continuously on the fiber $Y_{\bar{x}_0}$.
 
