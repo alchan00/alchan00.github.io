@@ -9,7 +9,7 @@ There is a equivalence of categories:
 $$\mathbf{Cov}/X \;\simeq\; \pi_1(X, x_0)\text{-}\mathbf{Sets}$$
 
 Let $\Lambda$ be a discrete ring. A **$\Lambda$-local system** on $X$ corresponds to a representation:
-$$\mathbf{Loc}_{\Lambda}(X) \;\simeq\; \pi_1(X, x_0)\text{-}\mathbf{Mod}_{\text{f.g.}}$$
+$$\mathbf{Loc}_{\Lambda}(X) \;\simeq\; \pi_1(X, x_0)\text{-}\mathbf{Mod}^{\text{f.g.}}_{\Lambda}$$
 
 > **Geometric Interpretation via Étale Space ($E \to X$):**
 > * A sheaf $\mathcal{F}$ on $X$ and its *espace étalé* $E(\mathcal{F}) \to X$ can be identified interchangeably.
