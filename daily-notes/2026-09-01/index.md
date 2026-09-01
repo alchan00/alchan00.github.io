@@ -54,7 +54,6 @@ $$\pi_1^{\text{et}}(X, \bar{x}_0) := \operatorname{Aut}(F_{\bar{x}_0})$$
 
 By construction, $\pi_1^{\text{et}}(X, \bar{x}_0)$ acts naturally and continuously on the fiber $Y_{\bar{x}_0} = F_{\bar{x}_0}(Y)$.
 
----
 
 ### Relation Between Different Base Points $\bar{x}_0$ and $\bar{x}_1$
 
