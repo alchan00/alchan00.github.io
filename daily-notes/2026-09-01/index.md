@@ -5,11 +5,11 @@
 Let $(X, x_0)$ be a pointed, connected, and "good" topological space.
 
 ### Fundamental Theorem of Covering Spaces
-There is a equivalence of categories:
+There is an equivalence of categories:
 $$\mathbf{Cov}/X \;\simeq\; \pi_1(X, x_0)\text{-}\mathbf{Sets}$$
 
 Let $\Lambda$ be a discrete ring. A **$\Lambda$-local system** on $X$ corresponds to a representation:
-$$\mathbf{Loc}_{\Lambda}(X) \;\simeq\; \pi_1(X, x_0)\text{-}\mathbf{Mod}^{\text{f.g.}}_{\Lambda}$$
+$$\mathbf{Loc}_{\Lambda}(X) \;\simeq\; \pi_1(X, x_0)\text{-}\mathbf{Mod}_{\Lambda}^{\text{f.g.}}$$
 
 > **Geometric Interpretation via Étale Space ($E \to X$):**
 > * A sheaf $\mathcal{F}$ on $X$ and its *espace étalé* $E(\mathcal{F}) \to X$ can be identified interchangeably.
@@ -30,7 +30,6 @@ $$\mathbf{Loc}_{\Lambda}(X) \;\simeq\; \pi_1(X, x_0)\text{-}\mathbf{Mod}^{\text{
    Corresponding to the non-trivial representation:
    $$\rho: \pi_1(S^1) \cong \mathbb{Z} \longrightarrow (\mathbb{Z}/3\mathbb{Z})^\times \cong \{\pm 1\} \subset \operatorname{Aut}_{\mathbb{Z}/3\mathbb{Z}}(\mathbb{Z}/3\mathbb{Z})$$
    Here, the zero element forms a trivial 1-fold cover $S^1$, while $\{1, 2\}$ form a connected 2-fold cover $z \mapsto z^2$.
-
 
 ---
 
@@ -53,7 +52,7 @@ $$F_{\bar{x}_0}: \mathbf{FEt}/X \longrightarrow \mathbf{FinSet}, \quad (Y \to X)
 
 $$\pi_1^{\text{et}}(X, \bar{x}_0) \coloneqq \operatorname{Aut}(F_{\bar{x}_0})$$
 
-By construction, $\pi_1^{\text{et}}(X, \bar{x}_0)$ acts continuously on the fiber $Y_{\bar{x}_0}$.
+By construction, $\pi_1^{\text{et}}(X, \bar{x}_0)$ acts naturally and continuously on the fiber $Y_{\bar{x}_0} = F_{\bar{x}_0}(Y)$.
 
 ---
 
@@ -77,31 +76,29 @@ $$\mathbf{FEt}/X \;\simeq\; \text{Finite Discrete } \pi_1^{\text{et}}(X, \bar{x}
 
 Where $\mathbf{LCC}(X)$ denotes the category of **Locally Constant Constructible Sheaves** of sets on $X$.
 
-Furthermore, for a finite ring $\Lambda$ (or $n$-torsion ring where $n$ is invertible on $X$):
-$$\mathbf{Loc}_{\Lambda}(X) \;\simeq\; \pi_1^{\text{et}}(X, \bar{x}_0)\text{-}\mathbf{Mod}_{\text{f.g.}}^{\text{cont}}$$
+Furthermore, for a finite ring $\Lambda$ (where $n\Lambda = 0$ for some $n \in \mathcal{O}_X^\times$):
+$$\mathbf{Loc}_{\Lambda}(X) \;\simeq\; \pi_1^{\text{et}}(X, \bar{x}_0)\text{-}\mathbf{Mod}_{\Lambda}^{\text{f.g., cont}}$$
 
-Relation to torsors and cohomology groups.
+---
+
+### Relation to Torsors and Cohomology Groups
+
+For a rank $n$ local system $\mathcal{L}$ of $\Lambda$-modules:
 
 $$\begin{aligned}
 \text{Rank } n \text{ }\Lambda\text{-local systems} &\;\Longleftrightarrow\; \mathrm{GL}_n(\Lambda)\text{-torsors} \\
 &\;\Longleftrightarrow\; H^1_{\text{et}}(X, \mathrm{GL}_n(\Lambda)) \\
-&\;\Longleftrightarrow\; \operatorname{Hom}(\pi_1(X, x_0), \mathrm{GL}_n(\Lambda)) \\
-&\;\Longleftrightarrow\; \operatorname{Hom}_{\text{cont}}(\pi_1^{\text{et}}(X, \bar{x}), \mathrm{GL}_n(\Lambda))
+&\;\Longleftrightarrow\; \operatorname{Hom}_{\text{cont}}(\pi_1^{\text{et}}(X, \bar{x}_0), \mathrm{GL}_n(\Lambda))
 \end{aligned}$$
-
 
 ---
 
-### Smooth Proper Base Change Theorem & Local Systems
+### Smooth Proper Base Change Theorem
 
-**Theorem (Smooth Proper Base Change):**  
-Let $f: X \to Y$ be a **smooth and proper morphism** of schemes, and let $\mathcal{F}$ be a **constructible sheaf** on $X$ such that the torsion of $\mathcal{F}$ is invertible on $Y$ (i.e., $n \mathcal{F} = 0$ with $n \in \mathcal{O}_Y^\times$).
+Let $\Lambda = \mathbb{Z}/n\mathbb{Z}$ where $n$ is invertible on $Y$
 
-Then for every $i \ge 0$:
-1. $R^i f_* \mathcal{F}$ is a **constructible sheaf** on $Y$.
-2. $R^i f_* \mathcal{F}$ is **locally constant** (hence an **LCC / local system**) on $Y$.
-3. For any geometric point $\bar{y} \to Y$, there is a canonical fiber isomorphism:
-   $$(R^i f_* \mathcal{F})_{\bar{y}} \;\cong\; H^i_{\text{et}}(X_{\bar{y}}, \mathcal{F}|_{X_{\bar{y}}})$$
+**Theorem:** If $f: X \to Y$ is a **smooth and proper morphism** of schemes, then the higher direct image sheaf $R^i f_* \Lambda$ is a **$\Lambda$-local system on $Y$** for all $i \ge 0$.
 
-> **Summary of Missing Hypotheses:**
-> $R^i f_* \Lambda$ is a $\Lambda$-local system provided that $f: X \to Y$ is **smooth and proper**, and the level $n$ of the coefficients $\Lambda$ is **invertible on $Y$** ($\operatorname{char}(k) \nmid n$).
+** For any geometric point $\bar{y} \to Y$, there is a canonical isomorphism:
+  $$(R^i f_* \Lambda)_{\bar{y}} \;\cong\; H^i_{\text{et}}(X_{\bar{y}}, \Lambda)$$
+  Since $X \to Y$ is smooth and proper, the geometric fibers $X_{\bar{y}}$ vary smoothly, making their étale cohomology groups $H^i_{\text{et}}(X_{\bar{y}}, \Lambda)$ form a locally constant family on $Y$.
