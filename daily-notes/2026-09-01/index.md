@@ -1,9 +1,6 @@
 
 
 
-
-
-
 # Monodromy and Local Systems
 
 ## 1. Topological Spaces
