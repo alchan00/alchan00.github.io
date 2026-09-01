@@ -33,11 +33,9 @@ $$\mathbf{Loc}_{\Lambda}(X) \;\simeq\; \pi_1(X, x_0)\text{-}\mathbf{Mod}_{\Lambd
 
 ---
 
-### Local Systems from Topology (Fibrations)
+**Theorem:** Let $f: X \to Y$ be a fiber bundle with fiber $F$. If $F$ has finitely generated cohomology $H^i(F, \Lambda)$, then the higher direct image sheaf $R^i f_* \Lambda$ is a **$\Lambda$-local system on $Y$**.
 
-**Theorem:** Let $f: X \to Y$ be a fiber bundle with fiber $F$ (e.g., a smooth proper map of manifold/complex varieties). If $F$ has finitely generated cohomology $H^i(F, \Lambda)$, then the higher direct image sheaf $R^i f_* \Lambda$ is a **$\Lambda$-local system on $Y$**.
-
-* **Intuition:** The fibers vary smoothly over $Y$, so their cohomology groups $H^i(f^{-1}(y), \Lambda)$ form a locally constant family.
+* **Intuition:** The fibers are locally spit over $Y$, so their cohomology groups $H^i(f^{-1}(y), \Lambda)$ form a locally constant family.
 
 ---
 
@@ -46,30 +44,15 @@ $$\mathbf{Loc}_{\Lambda}(X) \;\simeq\; \pi_1(X, x_0)\text{-}\mathbf{Mod}_{\Lambd
 Let $X$ be a connected normal scheme and let $\bar{x}_0: \operatorname{Spec} \Omega \to X$ be a geometric point.
 
 ### Étale Fundamental Group $\pi_1^{\text{et}}(X, \bar{x}_0)$
+
 The étale fundamental group is defined as the group of automorphisms of the fiber functor $F_{\bar{x}_0}$:
 
-$$F_{\bar{x}_0}: \mathbf{FEt}/X \longrightarrow \mathbf{FinSet}, \quad (Y \to X) \longmapsto Y_{\bar{x}_0} = Y \times_X \operatorname{Spec} \Omega$$
+By construction, $\pi_1^{\text{et}}(X,\bar{x})$ acts naturally and continuously on the fiber $Y_{\bar{x}_0}$.
 
-$$\pi_1^{\text{et}}(X, \bar{x}_0) := \operatorname{Aut}(F_{\bar{x}_0})$$
-
-By construction, $\pi_1^{\text{et}}(X, \bar{x}_0)$
-
-acts naturally and continuously on the fiber $Y_{\bar{x}_0} = F_{\bar{x}_0}(Y)$.
-
-
-### Relation Between Different Base Points $\bar{x}_0$ and $\bar{x}_1$
-
-If $\bar{x}_0$ and $\bar{x}_1$ are two geometric points of a connected scheme $X$:
-
-1. **Non-canonical Isomorphism:** The fiber functors $F_{\bar{x}_0}, F_{\bar{x}_1}$ are **isomorphic (étale path connected)**, which induces an inner automorphism:
-   $$\pi_1^{\text{et}}(X, \bar{x}_0) \;\cong\; \pi_1^{\text{et}}(X, \bar{x}_1)$$
-   This isomorphism is unique up to inner automorphisms (conjugacy by an element of $\pi_1^{\text{et}}$), analogous to changing the base point in classical topology.
-
-2. **Galois Action Context:** If $X = \operatorname{Spec} K$ and $\bar{x}_0, \bar{x}_1$ correspond to two algebraic closures $\bar{K}_0, \bar{K}_1$, choosing an isomorphism $\bar{K}_0 \cong \bar{K}_1$ specifies an isomorphism between $\operatorname{Gal}(\bar{K}_0/K)$ and $\operatorname{Gal}(\bar{K}_1/K)$.
 
 ---
 
-### Fundamental Equivalences in Étale Topology
+### Equivalences in Étale Topology
 
 Let $X$ be a connected scheme. The following categories are equivalent:
 
