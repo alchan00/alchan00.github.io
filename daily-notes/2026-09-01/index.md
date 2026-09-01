@@ -38,7 +38,7 @@ $$\mathbf{Loc}_{\Lambda}(X) \;\simeq\; \pi_1(X, x_0)\text{-}\mathbf{Mod}_{\Lambd
 
 **Theorem:** Let $f: X \to Y$ be a fiber bundle with fiber $F$. If $F$ has finitely generated cohomology $H^i(F, \Lambda)$, then the higher direct image sheaf $R^i f_* \Lambda$ is a **$\Lambda$-local system on $Y$**.
 
-* **Intuition:** The fibers are locally spit over $Y$, so their cohomology groups $H^i(f^{-1}(y), \Lambda)$ form a locally constant family.
+* **Intuition:** The fibers are locally split over $Y$, so their cohomology groups $H^i(f^{-1}(y), \Lambda)$ form a locally constant family.
 
 ---
 
@@ -48,7 +48,14 @@ Let $X$ be a connected normal scheme and let $\bar{x}_0: \operatorname{Spec} \Om
 
 ### Étale Fundamental Group $\pi_1^{\text{et}}(X, \bar{x}_0)$
 
-The étale fundamental group is defined as the group of automorphisms of the fiber functor $F_{\bar{x}_0}$:
+The étale fundamental group is defined as the group of automorphisms of the fiber functor
+$$
+F_{\bar{x}_0}:
+
+\mathbf{FEt}/X \longrightarrow \mathbf{FinSets},
+\qquad
+Y \longmapsto Y_{\bar{x}_0}.
+$$
 
 By construction, $\pi_1^{\text{et}}(X,\bar{x})$ acts naturally and continuously on the fiber $Y_{\bar{x}_0}$.
 
