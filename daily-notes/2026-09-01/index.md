@@ -52,14 +52,16 @@ $$F_{\bar{x}_0}: \mathbf{FEt}/X \longrightarrow \mathbf{FinSet}, \quad (Y \to X)
 
 $$\pi_1^{\text{et}}(X, \bar{x}_0) := \operatorname{Aut}(F_{\bar{x}_0})$$
 
-By construction, $\pi_1^{\text{et}}(X, \bar{x}_0)$ acts naturally and continuously on the fiber $Y_{\bar{x}_0} = F_{\bar{x}_0}(Y)$.
+By construction, $\pi_1^{\text{et}}(X, \bar{x}_0)$
+
+acts naturally and continuously on the fiber $Y_{\bar{x}_0} = F_{\bar{x}_0}(Y)$.
 
 
 ### Relation Between Different Base Points $\bar{x}_0$ and $\bar{x}_1$
 
 If $\bar{x}_0$ and $\bar{x}_1$ are two geometric points of a connected scheme $X$:
 
-1. **Non-canonical Isomorphism:** The fiber functors $F_{\bar{x}_0}$ and $F_{\bar{x}_1}$ are **isomorphic (étale path connected)**, which induces an inner automorphism:
+1. **Non-canonical Isomorphism:** The fiber functors $F_{\bar{x}_0}, F_{\bar{x}_1}$ are **isomorphic (étale path connected)**, which induces an inner automorphism:
    $$\pi_1^{\text{et}}(X, \bar{x}_0) \;\cong\; \pi_1^{\text{et}}(X, \bar{x}_1)$$
    This isomorphism is unique up to inner automorphisms (conjugacy by an element of $\pi_1^{\text{et}}$), analogous to changing the base point in classical topology.
 
