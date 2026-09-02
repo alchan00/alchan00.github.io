@@ -37,7 +37,7 @@ To construct an isomorphism with $\mathbb{Z}_\ell$, we have to choose a compatib
 * Transition maps:
   * $\mathbb{Z}/\ell^n\mathbb{Z} \to \mathbb{Z}/\ell^{n-1}\mathbb{Z} \quad (a \mapsto a \bmod \ell^{n-1}\mathbb{Z})$
   * $\mu_{\ell^n} \to \mu_{\ell^{n-1}} \quad (x \mapsto x^\ell \text{ power map})$
-* $\phi_n$ is a compatible, $G_{\mathbb{F}_p}$-equivariant $\mathbb{Z}/\ell^n\mathbb{Z}$-module isomorphism and induces $\mathbb{Z}_\ell(1) \xrightarrow{\sim} T_\ell \mathbb{G}_{m, \mathbb{F}_p} \cong \mathbb{Z}_\ell$.
+* $\phi_n$ is a compatible, $G_{\mathbb{F}_p}$-equivariant $\mathbb{Z}/\ell^n\mathbb{Z}$-module isomorphism and induces $\mathbb{Z}_\ell(1) \overset{\sim}{\to} T_\ell \mathbb{G}_{m, \mathbb{F}_p} \cong \mathbb{Z}_\ell$.
 
 ### $\ell$-adic Cyclotomic Character
 $\chi_\ell : G_{\mathbb{F}_p} \to \mathbb{Z}_\ell^\times$ is the $\ell$-adic cyclotomic character corresponding to $\mathbb{Z}_\ell(1)$, completely determined by $\text{Frob} \mapsto p$ (unramified).
