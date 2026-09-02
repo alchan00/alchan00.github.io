@@ -26,10 +26,11 @@ $$G_K \supset I_K \supset P_K \supset G_K^1 \supset G_K^2 \supset \cdots$$
 
 Here $p$ can be replaced by $q = p^f$. ($\ell \neq p$)
 
-Most convenient definition: $T_\ell \mathbb{G}_{m, \mathbb{F}_p}$.  
+Most convenient definition: $T_\ell\mathbb{G}_{m,\mathbb{F}_p}$.  
 Notation: $\mathbb{Z}_\ell(1)$, where $\text{Frob}$ acts as $p$.
 
 To construct an isomorphism with $\mathbb{Z}_\ell$, we have to choose a compatible sequence of primitive roots of unity $\{\zeta_{\ell^n}\}_{n \ge 1}$.
+
 
 * The choice of different roots amounts to an automorphism of $\mathbb{Z}_\ell$ by multiplying a unit.
 * Map: $\phi_n : \mathbb{Z}/\ell^n\mathbb{Z}(1) \to \mu_{\ell^n}$ sending $a \mapsto \zeta_{\ell^n}^a$
