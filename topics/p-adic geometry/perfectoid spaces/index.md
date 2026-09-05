@@ -5,7 +5,7 @@
 ### 1. Almost Mathematics & Philosophy of Perfectoid $K$-Algebras
 
 * **Core Philosophy:** Information and results on the generic fiber can be "spread out" almost integrally.
-* **Mechanism:** This is possible because the base field $K$ contains a pseudo-uniformizer $\varpi$ admitting all $p^n$-th roots ($\varpi^{1/p^r}$). Consequently, $\varpi^N$-torsion modules extend to $\varpi^{N/p^r}$-torsion via the Frobenius endomorphism.
+This is possible because the base field $K$ contains a pseudo-uniformizer $\varpi$ admitting all $p^n$-th roots ($\varpi^{1/p^r}$). Consequently, $\varpi^N$-torsion modules extend to $\varpi^{N/p^r}$-torsion via the Frobenius endomorphism.
 * **Almost Mathematics Framework:** This philosophy is made precise using *Almost Mathematics* (developed by Faltings, Almost Ring Theory by Gabber-Ramero), which systematically ignores modules annihilated by the maximal ideal $\mathfrak{m}_K$ (e.g., $\mathfrak{m}_K \approx \mathfrak{m}_K \otimes \mathfrak{m}_K$).
 
 There are two primary ways to establish the tilting equivalence:
@@ -14,7 +14,6 @@ There are two primary ways to establish the tilting equivalence:
 
 While both constructions agree, the latter is more powerful for proving structural results—namely, that rational subsets of perfectoid spaces are perfectoid, and the analytic site is equivalent to the étale site.
 
-* **Another Example of the Philosophy:** $\mathcal{O}_X^+$ is almost acyclic (higher sheaf cohomology is annihilated by $\mathfrak{m}_K$).
 
 #### Theorem 5.2 (Tilting for Perfectoid Algebras)
 The categories of perfectoid $K$-algebras and perfectoid $K^\flat$-algebras are equivalent. In fact, we have the following sequence of equivalences of categories:
