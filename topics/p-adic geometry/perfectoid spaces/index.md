@@ -11,8 +11,7 @@ The reason this is possible is because $K$ has pseudouniformizer admitting all $
 This is made explicit via almost math, which systematically ignores $\mathfrak{m}_K$ torsion modules. ex) $\mathfrak{m}_K \sim K^\circ$
 
 There are two ways for establishing tilting equivalence. One is via Fontaine theta map and one via almost math. Two constructions agree, but the latter is more useful in proving further important results. Namely, that rational subsets of perfectoids are perfectoids, and equivalence of analytic and étale site.
-
-Another example of the philosophy: $\mathcal{O}_X^+$ is almost acyclic.
+.
 
 #### Theorem 5.2
 The categories of perfectoid $K$-algebras and perfectoid $K^\flat$-algebras are equivalent. In fact, we have the following series of equivalences of categories:
