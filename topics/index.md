@@ -1,2 +1,2 @@
 
-[p-adic geometry](p-adic geometry/)
+[p-adic geometry](p-adic-geometry/)
