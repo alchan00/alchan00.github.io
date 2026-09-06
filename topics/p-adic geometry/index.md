@@ -1,1 +1,0 @@
-[Perfectoid spaces](perfectoid-spaces/)
