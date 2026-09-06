@@ -49,6 +49,14 @@ G x F -> G x F' -> F' is iso.
 and in the case of f epimorphsim (which is necessary) G is a torsor iff G x F' = F' x_F F'. f itself is a cover. there are G possible sections.
 
 
+X->Y G-torsor in Diamonds.
+
+Y(R)= R'->R G-torsor and R'->X G-equivariant map
+X(R) -> Y(R) map is
+sending R->X to trivial G x R. 
+
+
+
 
 
 
