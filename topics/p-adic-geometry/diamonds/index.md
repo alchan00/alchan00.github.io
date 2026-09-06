@@ -44,9 +44,9 @@ in a Topos J A finite group G can be regarded as a group object as well. union o
 Let G act on F' then we have action map G x F' -> F' satisting some property.
 f : F'->F  is a G torsor if the action of G fix commutes with f and locally G x F =F' G-equivariant iso.
 about the last condition. I got a bit confused why there is such map.
-A better way to think about this : first f should be epimorphism. G x F= F' if f admits a section s.
-G x F -> G x F' -> F' is iso.
-and in the case of f epimorphsim (which is necessary) G is a torsor iff G x F' = F' x_F F'. f itself is a cover. there are G possible sections.
+A better way to think about this : first assume f is an epimorphism.
+f admits a section s. <-> G x F -> G x F' -> F' is iso.
+G is a torsor iff G x F' = F' x_F F'. f itself is a cover. there are G possible sections.
 
 
 X->Y G-torsor in Diamonds.
@@ -56,12 +56,12 @@ X(R) -> Y(R) map is
 sending R->X to trivial G x R. 
 
 
-moduli of untilt (X#, i X#b->X) as no nontrival automorphism?
-meaning : f : X#->X# s.t. f^b=id is only id by tilting correspondence.
+moduli of untilt (X#, i X#b->X) has no nontrival automorphisms since f : X#->X# s.t. f^b=id is only id by tilting correspondence.
+viewed as a stack of groupoids,
 objects = pairs
 morphsism = unique iso for isomorphic untilts
 
-to view as sheaf of sets. one does pi_0 -> isoclass of untilts. not the underly set
+to view this as sheaf of sets. one does pi_0 and gets a set of isoclass of untilts. not the underly set
 because pi_0 is inverse to the naive functor from Sets to Gpds.
 
 
