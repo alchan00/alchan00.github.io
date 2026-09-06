@@ -31,10 +31,11 @@ The tilting functor is useful in the sense that it forgets structure morphism an
 #### Theorem 6.3
 Let $(R, R^+)$ be a perfectoid affinoid $K$-algebra, and let $X = \mathrm{Spa}(R, R^+)$ with associated presheaves $\mathcal{O}_X, \mathcal{O}_X^+$. Also, let $(R^\flat, R^{\flat +})$ be the tilt given by Lemma 6.2, and let $X^\flat = \mathrm{Spa}(R^\flat, R^{\flat +})$ etc.
 
-* **(i)** We have a homeomorphism $X \cong X^\flat$, given by mapping $x \in X$ to the valuation $x^\flat \in X^\flat$ defined by $|f(x^\flat)| = |f^\sharp(x)|$. This homeomorphism identifies rational subsets.
-* **(ii)** For any rational subset $U \subset X$ with tilt $U^\flat \subset X^\flat$, the complete affinoid $K$-algebra $(\mathcal{O}_X(U), \mathcal{O}_X^+(U))$ is perfectoid, with tilt $(\mathcal{O}_{X^\flat}(U^\flat), \mathcal{O}_{X^\flat}^+(U^\flat))$.
-* **(iii)** The presheaves $\mathcal{O}_X, \mathcal{O}_{X^\flat}$ are sheaves.
+* **(i)** We have a homeomorphism $X \cong X^{\flat}$, given by mapping $x \in X$ to the valuation $x^{\flat} \in X^{\flat}$ defined by $|f(x^{\flat})| = |f^{\sharp}(x)|$. This homeomorphism identifies rational subsets.
+* **(ii)** For any rational subset $U \subset X$ with tilt $U^{\flat} \subset X^{\flat}$, the complete affinoid $K$-algebra $(\mathcal{O}_X(U), \mathcal{O}_X^+(U))$ is perfectoid, with tilt $(\mathcal{O}_{X^{\flat}}(U^{\flat}), \mathcal{O}_{X^{\flat}}^+(U^{\flat}))$.
+* **(iii)** The presheaves $\mathcal{O}_X, \mathcal{O}_{X^{\flat}}$ are sheaves.
 * **(iv)** The cohomology group $H^i(X, \mathcal{O}_X^+)$ is $\mathfrak{m}$-torsion for $i > 0$.
+
 .
 
 #### Theorem 7.9
