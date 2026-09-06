@@ -56,7 +56,13 @@ X(R) -> Y(R) map is
 sending R->X to trivial G x R. 
 
 
+moduli of untilt (X#, i X#b->X) as no nontrival automorphism?
+meaning : f : X#->X# s.t. f^b=id is only id by tilting correspondence.
+objects = pairs
+morphsism = unique iso for isomorphic untilts
 
+to view as sheaf of sets. one does pi_0 -> isoclass of untilts. not the underly set
+because pi_0 is inverse to the naive functor from Sets to Gpds.
 
 
 
