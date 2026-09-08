@@ -23,7 +23,6 @@ or shtuka/local shimura/moduli of p-divisible group -> grassmanian
 Back to what I wanted to talk about.
 There is a single cohomology theory that specializes to above 3.
 Specifically, there is a functorial way to attach X to a perfect complex in D(A_inf) whose cohomology groups are BKS modules.
-(The noninvertibility of frob at C is is not invertible is what exactly gives H_dr a filtration.)
 
 Hope this justifies:
 Important of FF curve in its own right (rather than just moduli of untilts) and some terminology of points (etale/crsytalline end). way of viewing it as universal cohomology ring.
