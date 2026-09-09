@@ -29,7 +29,7 @@ Review of diamonds.
 Incarnations of spdQp x spdQp.
 fundamental group of FF curve = G_Qp
 Drinfeld's lemma.
-extending the diamond functor to preadic space X / Z_p
+extending the diamond functor to preadic space X / Z_p (formal scheme, perfect scheme)
 if X were analytic this is a diamond but in general a v-sheaf.
 
  
