@@ -22,7 +22,7 @@ Now lets fix to local situation where R is complete DVR.
 Hall algebra ~ finite modules. 
 Hecke module ~ cofinite modules. 
 Hall algebra acts on Hecke modules.
-Using inversion formula and degree map from Hall algebra to dirichlet series. (zeta element to zeta function) one can compute the zeta function.
+Using inversion formula and degree map from Hall algebra to dirichlet series. (which sends zeta element to zeta function) one can compute the zeta function.
 
 
 
