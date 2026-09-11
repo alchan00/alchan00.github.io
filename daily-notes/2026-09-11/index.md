@@ -18,7 +18,7 @@ in the local case like R=Z_p, finite modules are classified by partitions R/p^a1
 n^-s term is like generating function. combinatorial data to meromorphic functions. 
 
 Now lets fix to local situation where R is complete DVR.
-(completed) Hall algebra = universal hecke operator. only depends on R not M. parametrized by isoclass of finite modules / or partitions.
+(completed) Hall algebra = universal hecke operator. only depends on R not M. parametrized by isoclass of finite modules / or partitions. only depends on the residue field!
 Hall algebra ~ finite modules. 
 Hecke module ~ cofinite modules. 
 Hall algebra acts on Hecke modules.
