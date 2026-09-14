@@ -15,3 +15,4 @@ Now the key variable for reciprocity is trace(Frob_p). *Brauer–Nesbitt theorem
 Eichler-Shimura construction
 
 modular forms -> Ellpitic curve. via modular curves
+
