@@ -26,7 +26,7 @@ Given Z->X<-U one can "Glue t-structures" from D(U), D(Z) to D(X).
 Generalizing this, given a stratification, by glueing t-structures (related to local systems) from nonsingular strata, we get
 a t-structure on whole D(X) whose heart is "perverse sheaves".
 
-* perverse sheaves seem to be the more correct construction of "local system with singularities" (properly glued)
+* perverse sheaves seem to be the more correct construction of "local system with singularities, stratified local system" (properly glued)
 
 
 About geometric representation theory, geometric satake.
