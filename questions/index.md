@@ -21,7 +21,8 @@ Q2. Is there an appropriate theory in perfectoid/diamonds s.t. vector bundle on 
 
 
 
-
-
-What is the data of weil rep in the spectral side?
+Q3. What is the data of weil rep in the spectral side?
 can it be describe as a linear algebraic data? (ex some eigen values, excursion?)
+
+
+Q4. example case when we make use of C_p=C?
