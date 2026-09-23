@@ -20,3 +20,8 @@ Q1. There are many objects in p-adic geometry such as shtuka, BKS-module, Dieudo
 Q2. Is there an appropriate theory in perfectoid/diamonds s.t. vector bundle on spdQ_p/phi = F_p locsys on spdQ_p = f.d. F_p rep of G_Qp?
 
 
+
+
+
+What is the data of weil rep in the spectral side?
+can it be describe as a linear algebraic data? (ex some eigen values, excursion?)
