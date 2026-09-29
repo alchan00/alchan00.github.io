@@ -34,3 +34,9 @@
 
 
 [2026-09-22](2026-09-22/)
+
+
+[2026-09-29. grothendieck construction, Isocrystals](2026-09-29/)
+
+
+
