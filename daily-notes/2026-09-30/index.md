@@ -21,3 +21,5 @@ ex)
 
 A=Z_p formal mult group G_m is Lubin tate. f = (1+T)^p-1
 
+
+Lubin tate formal group serve as a moduli space of H^0(X_FF,O(1))
