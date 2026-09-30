@@ -39,4 +39,4 @@
 [2026-09-29. grothendieck construction, Isocrystals](2026-09-29/)
 
 
-
+[2026-09-30. lubin tate formal group](2026-09-30/)
