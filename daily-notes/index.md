@@ -35,6 +35,8 @@
 
 [2026-09-22](2026-09-22/)
 
+[2026-10-03. l parameters](2026-10-03/)
+
 
 [2026-09-29. grothendieck construction, Isocrystals](2026-09-29/)
 
