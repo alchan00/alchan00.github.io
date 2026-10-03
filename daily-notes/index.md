@@ -35,10 +35,12 @@
 
 [2026-09-22](2026-09-22/)
 
-[2026-10-03. l parameters](2026-10-03/)
 
 
 [2026-09-29. grothendieck construction, Isocrystals](2026-09-29/)
 
 
 [2026-09-30. lubin tate formal group](2026-09-30/)
+
+
+[2026-10-03. l parameters](2026-10-03/)
