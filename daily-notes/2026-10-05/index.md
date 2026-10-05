@@ -63,13 +63,7 @@ Using above facts we get
 
 2. colimit is more interesting. When I is connected (pushout, coequalizer ... ) basically the same. However if I is not connected we need to identify basepoints. ex) coproduct is "wedge sum"
 
-in particular
-
-$$
-(*,*)
-$$
-
-is initial and final object (zero object)
+in particular (*,*) is initial and final object (zero object)
 
 Recall that Top (say reasonable sub cat like CGWH) is closed cartesian.
 
