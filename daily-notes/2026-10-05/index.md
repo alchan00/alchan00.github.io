@@ -4,12 +4,18 @@ Existence depend on the shape of the diagram I. some facts:
 
 Sets have all (small) lim and colim.
 
-if (co)lim exist for I=discrete cat (disc(set)) and *=>* diagram with two maps, all co(lim) exists.
+if (co)lim exist for I=discrete cat (disc(set)) and
+
+$$
+*\rightrightarrows *
+$$
+
+diagram with two maps, all co(lim) exists.
 
 colim and lim are reverse when switched to
 
 $$
-I^{op}\to C^{op}
+I^{\mathrm{op}}\to C^{\mathrm{op}}
 $$
 
 if I had initial object
@@ -88,17 +94,21 @@ there is "smash product" denoted
 $$
 X\wedge Y
 =
-X\times Y/X\vee Y
+\frac{X\times Y}{X\vee Y}
 $$
 
 quotient of the map induced by
 
 $$
-X\to X\times Y,\qquad x\mapsto (x,y_0)
+X\to X\times Y,
+\qquad
+x\mapsto (x,y_0)
 $$
 
 $$
-Y\to X\times Y,\qquad y\mapsto (x_0,y)
+Y\to X\times Y,
+\qquad
+y\mapsto (x_0,y)
 $$
 
 This is the space by contracting all
@@ -116,7 +126,7 @@ $$
 ex)
 
 $$
-S^n\wedge S^m=S^{n+m}
+S^n\wedge S^m\cong S^{n+m}
 $$
 
 ex) "loop space"
@@ -158,9 +168,9 @@ $$
 $$
 \pi_n(X,x)
 :=
-[(S^n,*),(X,x)]
+[(S^n,*),(X,x)]_*
 =
-\pi_0\bigl(\operatorname{Map}_*(S^n,X)\bigr)
+\pi_0\!\left(\operatorname{Map}_*(S^n,X)\right)
 $$
 
 is defined for every object in this category. defines a class of functors
@@ -168,7 +178,11 @@ is defined for every object in this category. defines a class of functors
 $$
 \mathrm{Top}_*
 \to
-\text{pointed sets/groups/Ab}
+\begin{cases}
+\mathrm{Set}_*, & n=0,\\
+\mathrm{Grp}, & n=1,\\
+\mathrm{Ab}, & n\ge 2.
+\end{cases}
 $$
 
 Now fiber cofiber seq.
@@ -242,13 +256,13 @@ $$
 and take naive pushout we get
 
 $$
-\operatorname{hocof}(f)
+\operatorname{hocofib}(f)
 $$
 
 and
 
 $$
-X\to Y\to \operatorname{hocof}(f)
+X\to Y\to \operatorname{hocofib}(f)
 $$
 
 "cofiber seq"
@@ -256,11 +270,11 @@ $$
 ex)
 
 $$
-\operatorname{hofib}(*\to Y)=\Omega Y,
+\operatorname{hofib}(*\to Y)\simeq\Omega Y,
 $$
 
 $$
-\operatorname{hocof}(X\to *)=\Sigma X.
+\operatorname{hocofib}(X\to *)\simeq\Sigma X.
 $$
 
 when one extends
@@ -278,19 +292,19 @@ $$
 when one extends
 
 $$
-X\to Y\to\operatorname{hocof}(f)
+X\to Y\to\operatorname{hocofib}(f)
 $$
 
 to the right by succesively taking cofibers one gets:
 
 $$
-X\to Y\to\operatorname{Cof}(f)\to\Sigma X
+X\to Y\to\operatorname{hocofib}(f)\to\Sigma X
 $$
 
 Note : being a fiber seq is not equiv to being a cofiber seq. in otherwords, Top_* fails to be stable, suspension and loop functors are not inverses.
 
 $$
-H_n
+\widetilde{H}_n
 $$
 
 sends cofib seq to exact seq.
@@ -304,11 +318,11 @@ sends fib seq to exact seq.
 combining this fact with
 
 $$
-\pi_n(\Omega Y)=\pi_{n+1}(Y),
+\pi_n(\Omega Y)\cong\pi_{n+1}(Y),
 $$
 
 $$
-H_n(X)=H_{n+1}(\Sigma X)
+\widetilde{H}_{n+1}(\Sigma X)\cong \widetilde{H}_n(X)
 $$
 
 we get LES of homotopygroups/homologygroups.
@@ -330,13 +344,13 @@ we get the usual LES.
 e) if f was inclusion of
 
 $$
-A\to X
+A\hookrightarrow X
 $$
 
 cell complex,
 
 $$
-\operatorname{hocof}(f)
+\operatorname{hocofib}(f)
 $$
 
 is just
