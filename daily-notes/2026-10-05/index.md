@@ -7,7 +7,7 @@ Sets have all (small) lim and colim.
 if (co)lim exist for I=discrete cat (disc(set)) and
 
 $$
-*\rightrightarrows *
+* \rightrightarrows *
 $$
 
 diagram with two maps, all co(lim) exists.
@@ -15,13 +15,13 @@ diagram with two maps, all co(lim) exists.
 colim and lim are reverse when switched to
 
 $$
-I^{\mathrm{op}}\to C^{\mathrm{op}}
+I^{\mathrm{op}} \to C^{\mathrm{op}}
 $$
 
 if I had initial object
 
 $$
-C^I\to C
+C^{I} \to C
 $$
 
 limit is just evaluation at the initial object.
@@ -29,7 +29,7 @@ limit is just evaluation at the initial object.
 if I is filtered exists
 
 $$
-J\to I
+J \to I
 $$
 
 cofinal where J is a directed set.
@@ -46,13 +46,13 @@ Due to this it is very easy to compute (co)lim in Tops : do it in Sets where (co
 Top_* and Set_* has same adjunctions. Also
 
 $$
-\mathrm{Top}_*\to \mathrm{Top}
+\mathrm{Top}_{*} \to \mathrm{Top}
 $$
 
 has left adjoint
 
 $$
-(-)_+
+(-)_{+}
 $$
 
 which simply adds a basepoint.
@@ -78,13 +78,13 @@ Top_* is closed symmetric monoidal.
 internal hom is
 
 $$
-\operatorname{Map}_*(X,Y)
+\mathrm{Map}_{*}(X,Y)
 $$
 
 maps of pointed spaces where the basepoint is
 
 $$
-c_{y_0}
+c_{y_{0}}
 $$
 
 constant map.
@@ -92,96 +92,96 @@ constant map.
 there is "smash product" denoted
 
 $$
-X\wedge Y
+X \wedge Y
 =
-\frac{X\times Y}{X\vee Y}
+\frac{X \times Y}{X \vee Y}
 $$
 
 quotient of the map induced by
 
 $$
-X\to X\times Y,
+X \to X \times Y,
 \qquad
-x\mapsto (x,y_0)
+x \mapsto (x,y_{0})
 $$
 
 $$
-Y\to X\times Y,
+Y \to X \times Y,
 \qquad
-y\mapsto (x_0,y)
+y \mapsto (x_{0},y)
 $$
 
 This is the space by contracting all
 
 $$
-(x,y_0),\qquad (x_0,y)
+(x,y_{0}),\qquad (x_{0},y)
 $$
 
 to the basepoint
 
 $$
-(x_0,y_0).
+(x_{0},y_{0}).
 $$
 
 ex)
 
 $$
-S^n\wedge S^m\cong S^{n+m}
+S^{n} \wedge S^{m} \cong S^{n+m}
 $$
 
 ex) "loop space"
 
 $$
-\Omega X=\operatorname{Map}_*(S^1,X).
+\Omega X = \mathrm{Map}_{*}(S^{1},X).
 $$
 
 "suspension"
 
 $$
-\Sigma X=S^1\wedge X.
+\Sigma X = S^{1} \wedge X.
 $$
 
 by special case f adjunction,
 
 $$
-\Sigma\dashv\Omega.
+\Sigma \dashv \Omega.
 $$
 
 ex)
 
 $$
-H:I_+\wedge X\to Y
+H : I_{+} \wedge X \to Y
 $$
 
 is a homotopy between
 
 $$
-H_0
+H_{0}
 $$
 
 and
 
 $$
-H_1.
+H_{1}.
 $$
 
 $$
-\pi_n(X,x)
+\pi_{n}(X,x)
 :=
-[(S^n,*),(X,x)]_*
+[(S^{n},*),(X,x)]_{*}
 =
-\pi_0\!\left(\operatorname{Map}_*(S^n,X)\right)
+\pi_{0}\left(\mathrm{Map}_{*}(S^{n},X)\right)
 $$
 
 is defined for every object in this category. defines a class of functors
 
 $$
-\mathrm{Top}_*
+\mathrm{Top}_{*}
 \to
 \begin{cases}
-\mathrm{Set}_*, & n=0,\\
+\mathrm{Set}_{*}, & n=0,\\
 \mathrm{Grp}, & n=1,\\
-\mathrm{Ab}, & n\ge 2.
+\mathrm{Ab}, & n\geq 2.
 \end{cases}
 $$
 
@@ -190,7 +190,7 @@ Now fiber cofiber seq.
 for map
 
 $$
-f:(X,x_0)\to (Y,y_0)
+f : (X,x_{0}) \to (Y,y_{0})
 $$
 
 of top spaces, we can take "homotopy" kernel and cokernel.
@@ -206,23 +206,23 @@ is the zero object.
 there is a unique map to Y. By some model category argument, we can compute homotopy fiber product of this diagram after we factor
 
 $$
-*\to Y
+* \to Y
 $$
 
 to
 
 $$
-*\to PY\to Y.
+* \to PY \to Y.
 $$
 
 $$
-*\to PY
+* \to PY
 $$
 
 is a trivial cofibration, and
 
 $$
-PY\to Y
+PY \to Y
 $$
 
 is now a fibration, so that naive pullback is the same. i.e. take ordinary fiber product * replaced to PY.
@@ -230,13 +230,13 @@ is now a fibration, so that naive pullback is the same. i.e. take ordinary fiber
 Denote this limit as
 
 $$
-\operatorname{hofib}(f).
+\mathrm{hofib}(f).
 $$
 
 we call
 
 $$
-\operatorname{hofib}(f)\to X\to Y
+\mathrm{hofib}(f) \to X \to Y
 $$
 
 "fiber seq"
@@ -244,25 +244,25 @@ $$
 same way by replacing
 
 $$
-X\to *
+X \to *
 $$
 
 to
 
 $$
-X\to CX\to *
+X \to CX \to *
 $$
 
 and take naive pushout we get
 
 $$
-\operatorname{hocofib}(f)
+\mathrm{hocofib}(f)
 $$
 
 and
 
 $$
-X\to Y\to \operatorname{hocofib}(f)
+X \to Y \to \mathrm{hocofib}(f)
 $$
 
 "cofiber seq"
@@ -270,47 +270,47 @@ $$
 ex)
 
 $$
-\operatorname{hofib}(*\to Y)\simeq\Omega Y,
+\mathrm{hofib}(* \to Y) \simeq \Omega Y,
 $$
 
 $$
-\operatorname{hocofib}(X\to *)\simeq\Sigma X.
+\mathrm{hocofib}(X \to *) \simeq \Sigma X.
 $$
 
 when one extends
 
 $$
-\operatorname{hofib}(f)\to X\to Y
+\mathrm{hofib}(f) \to X \to Y
 $$
 
 to the left by succesively taking fibers one gets:
 
 $$
-\Omega Y\to \operatorname{hofib}(f)\to X\to Y
+\Omega Y \to \mathrm{hofib}(f) \to X \to Y
 $$
 
 when one extends
 
 $$
-X\to Y\to\operatorname{hocofib}(f)
+X \to Y \to \mathrm{hocofib}(f)
 $$
 
 to the right by succesively taking cofibers one gets:
 
 $$
-X\to Y\to\operatorname{hocofib}(f)\to\Sigma X
+X \to Y \to \mathrm{hocofib}(f) \to \Sigma X
 $$
 
 Note : being a fiber seq is not equiv to being a cofiber seq. in otherwords, Top_* fails to be stable, suspension and loop functors are not inverses.
 
 $$
-\widetilde{H}_n
+\widetilde{H}_{n}
 $$
 
 sends cofib seq to exact seq.
 
 $$
-\pi_n
+\pi_{n}
 $$
 
 sends fib seq to exact seq.
@@ -318,11 +318,11 @@ sends fib seq to exact seq.
 combining this fact with
 
 $$
-\pi_n(\Omega Y)\cong\pi_{n+1}(Y),
+\pi_{n}(\Omega Y) \cong \pi_{n+1}(Y),
 $$
 
 $$
-\widetilde{H}_{n+1}(\Sigma X)\cong \widetilde{H}_n(X)
+\widetilde{H}_{n+1}(\Sigma X) \cong \widetilde{H}_{n}(X)
 $$
 
 we get LES of homotopygroups/homologygroups.
@@ -330,13 +330,13 @@ we get LES of homotopygroups/homologygroups.
 ex) if f was a serre fibration, then
 
 $$
-\operatorname{hofib}(f)
+\mathrm{hofib}(f)
 $$
 
 is just the fiber
 
 $$
-F=f^{-1}(y_0).
+F = f^{-1}(y_{0}).
 $$
 
 we get the usual LES.
@@ -344,13 +344,13 @@ we get the usual LES.
 e) if f was inclusion of
 
 $$
-A\hookrightarrow X
+A \hookrightarrow X
 $$
 
 cell complex,
 
 $$
-\operatorname{hocofib}(f)
+\mathrm{hocofib}(f)
 $$
 
 is just
