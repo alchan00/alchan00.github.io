@@ -261,7 +261,7 @@ $$
 Note : being a fiber seq is not equiv to being a cofiber seq. in otherwords, Top_* fails to be stable, suspension and loop functors are not inverses.
 
 $$
-\widetilde{H}_{n}
+\widetilde{H}^{n}
 $$
 
 sends cofib seq to exact seq.
@@ -279,10 +279,10 @@ $$
 $$
 
 $$
-\widetilde{H}_{n+1}(\Sigma X) \cong \widetilde{H}_{n}(X)
+\widetilde{H}^{n+1}(\Sigma X) \cong \widetilde{H}^{n}(X)
 $$
 
-we get LES of homotopygroups/homologygroups.
+we get LES of homotopygroups/cohomologygroups.
 
 ex) if f was a serre fibration, then
 
@@ -316,4 +316,4 @@ $$
 X/A.
 $$
 
-we get the usual LES on reduced homology.
+we get the usual LES on reduced cohomology.
