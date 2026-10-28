@@ -52,3 +52,5 @@
 
 
 [2026-10-24. solid geometry](2026-10-24/)
+
+[2026-10-28. motivation on condensed math, analytic stacks](2026-10-24/)
