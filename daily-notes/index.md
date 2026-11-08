@@ -56,4 +56,4 @@
 [2026-10-28. motivation on condensed math, analytic stacks](2026-10-24/)
 
 
-[2026-11-08. grothendieck universes]
+[2026-11-08. grothendieck universes](2026-11-08/)
