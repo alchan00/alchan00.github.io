@@ -57,3 +57,6 @@
 
 
 [2026-11-08. grothendieck universes](2026-11-08/)
+
+
+[2026-11-14. higher algebra](2026-11-14/)
