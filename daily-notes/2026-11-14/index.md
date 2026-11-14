@@ -1,5 +1,5 @@
 
-# From Abelian Groups to Condensed Algebra
+# Higher Algebra
 
 Commutative algebra and algebraic geometry can be thought of as a study of the abelian category $\mathrm{Ab}$.
 
