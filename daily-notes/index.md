@@ -61,4 +61,4 @@
 
 [2026-11-14. higher algebra](2026-11-14/)
 
-[2026-11-20. sieves and covers](2026-11-21/)
+[2026-11-20. sieves and covers](2026-11-20/)
